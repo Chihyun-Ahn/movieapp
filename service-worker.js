@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/git-hub.io/movieapp/precache-manifest.d63ea22f2291cb55eaa5a5b999d850ef.js"
+  "/movieapp/precache-manifest.35471c3d01ef43eb143a615cc4ea0bbe.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/git-hub.io/movieapp/index.html", {
+workbox.routing.registerNavigationRoute("/movieapp/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
